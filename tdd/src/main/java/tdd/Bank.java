@@ -3,6 +3,13 @@ package tdd;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author yoshinotakashi
+ *
+ * class:bank
+ *
+ */
+
 class Bank {
 	private Map<Pair, Integer> rates = new HashMap<Pair, Integer>();
 	Money reduce(Expression source, String to) {
